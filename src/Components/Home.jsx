@@ -8,7 +8,6 @@ function Home() {
 
                 <h3>Full Stack Developer</h3>
 
-                <p>Hola!  </p>
             </div>
         </div>
     )
