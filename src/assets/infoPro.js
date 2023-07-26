@@ -11,7 +11,7 @@ const infoPro = [
     id: 2,
     titulo: 'Henry Books',
     info: 'Diseñar y desarrollar un E-Commerce de Libros que incluía: búsquedas, filtrados, ordenamientos, creación, autenticaciones de usuarios, pasarela de pagos, chatbot, reviews, dashboard, productos destacados. Trabaje en equipo mediante la metodología ágil SCRUM, GitHub WorkFlow, utilizando ramas, creando pull request y controlando las versiones de desarrollo y producción para desarrollar un producto digital',
-    img: '',
+    img: './',
     repo: 'https://github.com/scch94/probando-pf'
 
   }
