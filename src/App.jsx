@@ -1,14 +1,19 @@
+import Nav from './components/Nav'
+import Inicio from './components/Inicio'
+import Redes from './components/Redes'
+import Proyectos from './components/Proyectos'
+import Skills from './components/Skills'
 import './App.css'
 
 function App () {
   return (
     <>
 
-      <h1 className='text-red-700'>Hola Mundo!!!!!</h1>
-      <h2>Hola H2</h2>
-      <h3>Hola H3</h3>
-      <h4>Hola H4</h4>
-
+      <Nav />
+      <Inicio />
+      <Redes />
+      <Proyectos />
+      <Skills />
     </>
   )
 }
