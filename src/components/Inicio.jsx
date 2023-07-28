@@ -1,7 +1,7 @@
 function Inicio () {
   return (
     <>
-      <main className='pl-40 pt-32'>
+      <main className='pl-36 pt-32'>
         <h1 className='text-6xl font-bold text-white'>Manuel Carreras</h1>
         <h2 className='text-2xl font-semibold text-second pt-2 pl-2'>Full Stack Developer</h2>
 
