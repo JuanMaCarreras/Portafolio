@@ -1,49 +1,45 @@
-import { DiHtml5, DiCss3, DiJavascript1, DiNodejsSmall, DiPostgresql, DiGit, DiGithubBadge } from 'react-icons/di'
-import { SiReact, SiRedux, SiTailwindcss, SiExpress, SiSequelize, SiMysql, SiInsomnia } from 'react-icons/si'
+import { DiHtml5, DiCss3, DiNodejsSmall, DiPostgresql, DiGit, DiGithubBadge } from 'react-icons/di'
+import { SiReact, SiRedux, SiTailwindcss, SiExpress, SiSequelize, SiMysql, SiInsomnia, SiSlack, SiJavascript } from 'react-icons/si'
 
 function Skills () {
   return (
     <>
-      <h3 className='text-3xl font-semibold text-second pl-44'> Habilidades</h3>
-      <article className='flex  pt-24 pb-32'>
+      <article id='skills'>
+        <h3 className='text-3xl font-semibold text-second pl-44 pt-32'>Habilidades</h3>
 
-        <div className='justify-start pl-48'>
-          <h4 className='text-2xl text-white pb-14'>Lenguajes</h4>
+        <h1 className='flex text-white text-2xl justify-start mt-20 ml-48 mr-96 border-b'>Front-End</h1>
+        <div className='flex justify-start mb-4 ml-48 mr-96 gap-6 py-8 px-5 border-t-8 border-mainDark '>
 
-          <DiHtml5 className='text-white h-20 w-20 hover:duration-700 hover:text-H' />
-          <DiCss3 className='text-white h-20 w-20 hover:duration-700 hover:text-C' />
-          <DiJavascript1 className='text-white h-24 w-24 hover:duration-700 hover:text-J' />
+          <DiHtml5 className='text-text h-14 w-14 hover:duration-700 hover:text-H' />
+          <DiCss3 className='text-text  h-14 w-14 hover:duration-700 hover:text-C' />
+          <SiJavascript className='text-text h-11 w-11 hover:duration-700 mt-1 hover:text-J' />
+          <SiReact className='text-text mb-2 h-14 w-11 hover:duration-700 hover:text-R' />
+          <SiRedux className='text-text h-14 w-11 hover:duration-700 hover:text-RD' />
+          <SiTailwindcss className='text-text h-14 w-12 hover:duration-700 hover:text-T' />
         </div>
 
-        <div className='justify-start pl-32'>
-          <h4 className='text-2xl text-white pb-14'>Front-End</h4>
+        <h1 className='flex text-white text-2xl justify-end mt-5 ml-96 mr-44 border-b '>Back-End</h1>
+        <div className='flex justify-end mb-4 ml-96 mr-44 gap-6 py-8 px-5 border-t-8 border-mainDark'>
 
-          <SiReact className='text-white mb-2 h-20 w-20 hover:duration-700 hover:text-R' />
-          <SiRedux className='text-white h-16 w-20 hover:duration-700 hover:text-RD' />
-          <SiTailwindcss className='text-white h-20 w-20 hover:duration-700 hover:text-T' />
+          <DiNodejsSmall className='text-text h-16 w-16 hover:duration-700 hover:text-N' />
+          <SiExpress className='text-text h-16 w-16 hover:duration-700 hover:text-white' />
+          <SiSequelize className='text-text h-12 w-12 mt-2 hover:duration-700 hover:text-S' />
         </div>
 
-        <div className='justify-start pl-32'>
-          <h4 className='text-2xl text-white pb-14'>Back-End</h4>
+        <h1 className='flex text-white text-2xl justify-start mt-5 ml-48 mr-96 border-b '>Data Base</h1>
+        <div className='flex justify-start mb-4  ml-48 mr-96 gap-6 py-8 px-5 border-t-8 border-mainDark'>
 
-          <DiNodejsSmall className='text-white h-20 w-20 hover:duration-700 hover:text-N' />
-          <SiExpress className='text-white h-20 w-20 hover:duration-700 hover:text-E' />
-          <SiSequelize className='text-white h-16 w-20 hover:duration-700 hover:text-S' />
+          <DiPostgresql className='text-text h-16 w-16 hover:duration-700 hover:text-P' />
+          <SiMysql className='text-text h-16 w-16 hover:duration-700 hover:text-MY' />
         </div>
 
-        <div className='justify-start pl-32'>
-          <h4 className='text-2xl text-white pb-14'>Data Base</h4>
+        <h1 className='flex text-white text-2xl justify-end mt-5 ml-96 mr-44 border-b '>Extras</h1>
+        <div className='flex justify-end mb-28 ml-96 mr-44 gap-6 py-8 px-5 border-t-8 border-mainDark'>
 
-          <DiPostgresql className='text-white h-20 w-20 hover:duration-700 hover:text-P' />
-          <SiMysql className='text-white h-20 w-20 hover:duration-700 hover:text-MY' />
-        </div>
-
-        <div className='justify-center pl-32 '>
-          <h4 className='text-2xl text-white pb-14'>Tools</h4>
-
-          <DiGit className='text-white h-20 w-20 hover:duration-700 hover:text-G' />
-          <DiGithubBadge className='text-white h-20 w-20 hover:duration-700 hover:text-GH' />
-          <SiInsomnia className='text-white h-14 w-20 hover:duration-700 hover:text-I' />
+          <DiGit className='text-text h-16 w-16 hover:duration-700 hover:text-G' />
+          <DiGithubBadge className='text-text h-16 w-16 hover:duration-700 hover:text-GH' />
+          <SiInsomnia className='text-text h-12 w-12 mt-2 hover:duration-700 hover:text-I' />
+          <SiSlack className='text-text pt-2 h-12 w-12 mt-1 hover:duration-700 hover:text-slate-50' />
         </div>
 
       </article>
