@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         main: '#0d1a26',
+        text: '#b0bec5',
         mainDark: '#0a1622',
         mainSecond: '#011627',
         second: '#d45498',
@@ -24,7 +25,7 @@ export default {
         MY: '#f29111',
         G: '#f1502f',
         GH: '#c7d1db', // '#5e5d5d',
-        I: '#522e92'
+        I: '#ba68c8'
       }
     }
   },
