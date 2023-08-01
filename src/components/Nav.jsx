@@ -17,7 +17,7 @@ function Nav () {
 
   return (
     <>
-      <header className={`fixed top-0 left-0 w-full py-6  bg-mainDark ${showName ? 'show name' : ''}`}>
+      <header className={`fixed top-0 left-0 w-full py-6 shadow-md backdrop-blur-lg backdrop-filter bg-mainDark bg-opacity-90 ${showName ? 'show name' : ''}`}>
         <nav className=' text-white '>
 
           <ul className='flex justify-end gap-11 py-2 pr-16 text-lg'>
@@ -25,22 +25,25 @@ function Nav () {
             {showName && <p className=' flex items-center text-white text-2xl absolute left-12  animate-fade-in'>Manuel Carreras </p>}
 
             <li
-              className='cursor-pointer
-           border-b-1 border-transparent
-           hover:duration-1000 hover:border-b-2 hover:border-second'
+              className='text-base
+              cursor-pointer
+              border-b-1 border-transparent
+              hover:duration-1000 hover:border-b-2 hover:border-second'
             ><a href='#root'> Inicio </a>
 
             </li>
 
-            <li className='cursor-pointer
-            border-b-1 border-transparent
-            hover:duration-1000 hover:border-b-2 hover:border-second'
+            <li className='text-base
+              cursor-pointer
+              border-b-1 border-transparent
+              hover:duration-1000 hover:border-b-2 hover:border-second'
             > <a href='#proyectos'> Proyectos </a>
             </li>
 
-            <li className='cursor-pointer
-            border-b-1 border-transparent
-            hover:duration-1000 hover:border-b-2 hover:border-second'
+            <li className=' text-base
+              cursor-pointer
+              border-b-1 border-transparent
+              hover:duration-1000 hover:border-b-2 hover:border-second'
             > <a href='#skills'>Habilidades </a>
             </li>
 
