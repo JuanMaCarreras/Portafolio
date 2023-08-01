@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         main: '#0d1a26',
-        text: '#b0bec5',
+        text: '#94a3b8',
         mainDark: '#0a1622',
         mainSecond: '#011627',
         second: '#d45498',
@@ -26,7 +26,22 @@ export default {
         G: '#f1502f',
         GH: '#c7d1db', // '#5e5d5d',
         I: '#ba68c8'
+      },
+      keyframes: {
+        'fade-in': {
+          '0%': {
+            opacity: '0%'
+          },
+          '100%': {
+            opacity: '100%'
+          }
+
+        }
+      },
+      animation: {
+        'fade-in': 'fade-in 1s'
       }
+
     }
   },
   plugins: []
