@@ -22,7 +22,7 @@ function Nav () {
 
           <ul className='flex justify-end gap-11 py-2 pr-16 text-lg'>
 
-            {showName && <p className=' flex items-center text-white text-2xl absolute left-12  animate-fade-in'>Manuel Carreras </p>}
+            {showName && <p className=' flex items-center font-semibold text-white text-2xl absolute left-12  animate-fade-in'>Manuel Carreras </p>}
 
             <li
               className='text-base
