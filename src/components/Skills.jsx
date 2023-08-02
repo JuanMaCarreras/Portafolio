@@ -5,7 +5,7 @@ function Skills () {
   return (
     <>
       <article id='skills'>
-        <h3 className='text-3xl font-semibold text-second pl-36 pt-32'>Habilidades</h3>
+        <h3 className='font-mono text-3xl font-semibold text-second pl-36 pt-32'>Habilidades</h3>
 
         <h1 className='flex text-white text-2xl justify-start mt-20 ml-44 mr-96 border-b'>Front-End</h1>
         <div className='flex justify-start mb-4 ml-44 mr-96 gap-6 py-8 px-5 border-t-8 border-mainDark '>
