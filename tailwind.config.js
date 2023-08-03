@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
+
   content: [
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}'
@@ -7,11 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
+        first: '#ea580c',
         main: '#0d1a26',
         text: '#94a3b8',
         mainDark: '#0a1622',
         mainSecond: '#011627',
-        second: '#d45498',
+        second: '#f43f5e',
         H: '#f06529',
         C: '#2965f1',
         J: '#f0db4f',
@@ -44,5 +47,5 @@ export default {
 
     }
   },
-  plugins: []
+  plugins: [require('tailwindcss-animated')]
 }
