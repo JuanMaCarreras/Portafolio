@@ -9,12 +9,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        first: '#ea580c',
-        main: '#0d1a26',
-        text: '#94a3b8',
+        bg: '#fffff',
+        title: '#ea580c',
+        text: '#030712',
+        shadow: '#cbcde3',
+        mainLight: '#f2f2f2',
+        // -------------------
+        dark: '#0d1a26',
+        textDark: '#94a3b8',
         mainDark: '#0a1622',
         mainSecond: '#011627',
         second: '#f43f5e',
+        // -------------------
+        svg: '#f43f5e',
         H: '#f06529',
         C: '#2965f1',
         J: '#f0db4f',
@@ -38,8 +45,8 @@ export default {
           '100%': {
             opacity: '100%'
           }
-
         }
+
       },
       animation: {
         'fade-in': 'fade-in 1s'
