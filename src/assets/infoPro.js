@@ -5,7 +5,7 @@ const infoPro = [
   {
     id: 1,
     titulo: 'PI Countires (Proyecto Individual)',
-    info: 'El objetivo de este proyecto es hacer una App usando React, Redux, NodeJS, Sequelize y Express. - Desarrollando y gestionando servidores con (Express y NodeJs) Base de Datos con ( Postgres SQL y Sequelize) - Desarrollando y gestionando la parte del cliente con (ReactJs, Redux, HTML y CSS) React y sus estados locales / coompnentes y sus siclos de vida Redux y sus estados globales',
+    info: 'El objetivo de este proyecto es hacer una App usando React, Redux, NodeJS, Sequelize y Express. Desarrollando y gestionando servidores con (Express y NodeJs) Base de Datos con ( Postgres SQL y Sequelize).  Desarrollando y gestionando la parte del cliente con (ReactJs, Redux, HTML y CSS) React y sus estados locales / coompnentes y sus siclos de vida Redux y sus estados globales',
     img: imgC,
     repo: 'https://github.com/JuanMaCarreras/PI-Countries'
 
