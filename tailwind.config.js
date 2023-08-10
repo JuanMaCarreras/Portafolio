@@ -8,6 +8,11 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        movil: { max: '390px' }
+
+      },
+
       colors: {
         bg: '#fffff',
         title: '#ea580c',
@@ -21,7 +26,6 @@ export default {
         mainSecond: '#011627',
         second: '#f43f5e',
         // -------------------
-        svg: '#f43f5e',
         H: '#f06529',
         C: '#2965f1',
         J: '#f0db4f',
