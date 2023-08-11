@@ -12,7 +12,6 @@ export default {
         movil: { max: '390px' }
 
       },
-
       colors: {
         bg: '#fffff',
         title: '#ea580c',
