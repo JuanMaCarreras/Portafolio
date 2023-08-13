@@ -17,7 +17,7 @@ function Proyectos () {
 
                   <div className='flex flex-row  movil:flex-col movil:w-full'>
                     <img
-                      className='w-1/2 ml-8 movil:w-4/5 movil:ml-7 rounded-md border-solid border-2 border-gray-600 hover:border-slate-950 dark:border-slate-200/30 p-1 transition dark:hover:border-slate-200/50'
+                      className='w-1/2 ml-8 movil:w-4/5 movil:ml-9 rounded-md border-solid border-2 border-gray-600 hover:border-slate-950 dark:border-slate-200/30 p-1 transition dark:hover:border-slate-200/50'
                       src={data.img}
                       alt='Imagen del proyecto'
                     />
