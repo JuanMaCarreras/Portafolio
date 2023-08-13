@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        movil: { max: '390px' }
+        movil: { min: '390px', max: '768px' }
 
       },
       colors: {
