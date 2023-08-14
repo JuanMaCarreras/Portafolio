@@ -9,7 +9,8 @@ export default {
   theme: {
     extend: {
       screens: {
-        movil: { min: '390px', max: '768px' }
+        phone: { min: '367px', max: '768px' },
+        tablet: {}
 
       },
       colors: {
