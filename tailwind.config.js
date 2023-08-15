@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       screens: {
-        phone: { min: '367px', max: '768px' },
-        tablet: {}
+        phone: { min: '330px', max: '768px' },
+        tablet: { min: '769px', max: '1069px' }
 
       },
       colors: {
