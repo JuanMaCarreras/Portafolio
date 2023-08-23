@@ -18,12 +18,15 @@ export default {
         title: '#ea580c',
         text: '#030712',
         shadow: '#cbcde3',
+        shadow2: '#edecec',
         mainLight: '#f2f2f2',
         // -------------------
         dark: '#0d1a26',
         textDark: '#94a3b8',
         mainDark: '#0a1622',
         mainSecond: '#011627',
+        shadow3: '#0e1e2e',
+        shadowB: '#102336',
         second: '#f43f5e',
         // -------------------
         H: '#f06529',
@@ -39,7 +42,8 @@ export default {
         MY: '#f29111',
         G: '#f1502f',
         GH: '#c7d1db', // '#5e5d5d',
-        I: '#ba68c8'
+        I: '#ba68c8',
+        TRE: '#2979ff'
       },
       keyframes: {
         'fade-in': {
