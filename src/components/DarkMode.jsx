@@ -1,4 +1,5 @@
-import { BsMoonStarsFill, BsFillSunFill } from 'react-icons/bs'
+import { BsFillSunFill } from 'react-icons/bs'
+import { FaMoon } from 'react-icons/fa'
 import { useState } from 'react'
 
 function DarkMode () {
@@ -14,10 +15,10 @@ function DarkMode () {
         {
          isDarkMode
            ? (
-             <BsFillSunFill className='w-5 h-5 mr-3 ' />
+             <BsFillSunFill className='w-5 h-5 mt-1 ' />
              )
            : (
-             <BsMoonStarsFill className='w-4 h-4  mr-3' />
+             <FaMoon className='w-5 h-5 mt-1' />
              )
         }
 
