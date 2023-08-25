@@ -1,7 +1,7 @@
 function Inicio () {
   return (
     <main
-      className='flex flex-col  ml-36 mt-32 mb-44 phone:mx-10 phone:mt-24 phone:items-center phone:justify-center tablet:ml-11 animate-fade-in animate-duration-[2000ms]'
+      className='flex flex-col  ml-36 mt-36 mb-44 phone:mx-10 phone:mt-24 phone:items-center phone:justify-center tablet:ml-11 animate-fade-in animate-duration-[2000ms]'
 
     >
       <h1 className='text-6xl font-bold text-text phone:text-4xl dark:text-white font-sans'>Manuel Carreras</h1>
