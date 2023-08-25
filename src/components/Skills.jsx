@@ -8,7 +8,7 @@ function Skills () {
   return (
     <>
       <article id='skills'>
-        <div className='py-4'>
+        <div className='py-4 mb-36'>
           <h3 className='text-title dark:text-second font-mono text-3xl font-semibold ml-36 mt-14 pt-16 phone:flex phone:items-start phone:ml-7 phone:text-2xl phone:mt-4 tablet:ml-12'>Habilidades</h3>
 
           <h1 className='flex dark:text-white text-2xl justify-start mt-14 ml-44 mr-96 border-b border-text dark:border-white phone:ml-9 phone:mt-11 phone:mr-20 phone:text-lg tablet:ml-24'>Front-End</h1>
