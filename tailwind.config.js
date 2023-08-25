@@ -20,6 +20,7 @@ export default {
         shadow: '#cbcde3',
         shadow2: '#edecec',
         mainLight: '#f2f2f2',
+        footer: '#f0f0f0',
         // -------------------
         dark: '#0d1a26',
         textDark: '#94a3b8',
