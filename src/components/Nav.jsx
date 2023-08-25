@@ -28,7 +28,7 @@ function Nav () {
               </div>
           }
 
-          <ul className='flex justify-end gap-5 pb-2 pr-11 phone:gap-1 phone:pr-2 tablet:pr-2 animate-fade-down animate-duration-[1000ms]'>
+          <ul className='flex justify-end gap-4 pb-2 pr-11 phone:gap-1 phone:pr-2 tablet:pr-2 animate-fade-down animate-duration-[1000ms]'>
 
             <li className='pt-1 phone:pt-2'>
               <a
