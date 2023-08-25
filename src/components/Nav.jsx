@@ -19,7 +19,7 @@ function Nav () {
 
   return (
     <>
-      <header className={`fixed top-0 left-0 w-full py-6   shadow-md backdrop-blur-lg  bg-mainLight dark:bg-mainDark bg-opacity-90 ${showName ? 'show name' : ''}`}>
+      <header className={`fixed top-0 left-0 w-full py-6 shadow-md backdrop-blur-lg bg-mainLight dark:bg-mainDark bg-opacity-90 ${showName ? 'show name' : ''} animate-fade-down animate-duration-[999ms]`}>
         <nav className=' dark:text-white '>
           {
             showName &&
