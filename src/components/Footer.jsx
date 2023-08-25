@@ -22,6 +22,7 @@ function Footer () {
       <div className='border-t border-gray-800 my-8 w-full dark:border-gray-500' />
 
       <p className='mt-auto mb-0 dark:text-white phone:text-sm '>&copy; {new Date().getFullYear()} Manuel Carreras. Todos los derechos reservados.</p>
+
     </footer>
   )
 }
