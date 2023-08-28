@@ -28,12 +28,12 @@ function Nav () {
               </div>
           }
 
-          <ul className='flex justify-end gap-4 pb-2 pr-11 phone:gap-1 phone:pr-2 tablet:pr-2 animate-fade-down animate-duration-[1000ms]'>
+          <ul className='flex justify-end gap-4 pb-2 pr-11 phone:gap-1 phone:pr-3 tablet:pr-2 animate-fade-down animate-duration-[1000ms]'>
 
             <li className='pt-1 phone:pt-2'>
               <a
                 href='#root'
-                className=' text-lg phone:text-sm font-semibold cursor-pointer hover:duration-700 hover:border-b hover:text-title dark:hover:text-second rounded-lg hover:bg-shadow2 dark:hover:bg-shadow3 dark:border-shadowB px-2 py-1'
+                className=' text-lg phone:text-base font-semibold cursor-pointer hover:duration-700 hover:border-b hover:text-title dark:hover:text-second rounded-lg hover:bg-shadow2 dark:hover:bg-shadow3 dark:border-shadowB px-2 py-1'
               > Inicio
               </a>
 
@@ -42,7 +42,7 @@ function Nav () {
             <li className='pt-1 phone:pt-2'>
               <a
                 href='#proyectos'
-                className='text-lg phone:text-sm font-semibold cursor-pointer  hover:duration-700 hover:border-b hover:text-title dark:hover:text-second rounded-lg hover:bg-shadow2 dark:hover:bg-shadow3 dark:border-shadowB px-2 py-1'
+                className='text-lg phone:text-base font-semibold cursor-pointer  hover:duration-700 hover:border-b hover:text-title dark:hover:text-second rounded-lg hover:bg-shadow2 dark:hover:bg-shadow3 dark:border-shadowB px-2 py-1'
               > Proyectos
               </a>
             </li>
@@ -50,7 +50,7 @@ function Nav () {
             <li className='pt-1  phone:pt-2'>
               <a
                 href='#skills'
-                className='text-lg phone:text-sm font-semibold cursor-pointer hover:duration-700 hover:border-b hover:text-title dark:hover:text-second rounded-lg hover:bg-shadow2 dark:hover:bg-shadow3 dark:border-shadowB px-2 py-1'
+                className='text-lg phone:text-base font-semibold cursor-pointer hover:duration-700 hover:border-b hover:text-title dark:hover:text-second rounded-lg hover:bg-shadow2 dark:hover:bg-shadow3 dark:border-shadowB px-2 py-1'
               > Habilidades
               </a>
 
