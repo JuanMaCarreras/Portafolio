@@ -1,6 +1,8 @@
 import { DiHtml5, DiCss3, DiNodejsSmall, DiGit, DiGithubBadge } from 'react-icons/di'
-import { SiReact, SiRedux, SiTailwindcss, SiExpress, SiSequelize, SiMysql, SiInsomnia, SiSlack, SiJavascript } from 'react-icons/si'
+import { SiReact, SiRedux, SiTailwindcss, SiMongodb, SiExpress, SiSequelize, SiMysql, SiInsomnia, SiSlack, SiJavascript, SiMongoose, SiTypescript } from 'react-icons/si'
 import { BiLogoPostgresql, BiLogoTrello } from 'react-icons/bi'
+import { TbBrandReactNative } from 'react-icons/tb'
+import { FaDocker } from 'react-icons/fa'
 import Tippy from '@tippyjs/react'
 import 'tippy.js/dist/tippy.css'
 
@@ -69,6 +71,13 @@ function Skills () {
                 <SiSequelize className='text-text dark:text-textDark h-12 w-12 mt-2 hover:duration-1000 hover:text-S dark:hover:text-S phone:w-9 tablet:w-11' />
               </span>
             </Tippy>
+
+            <Tippy content='Mongoose' arrow={false} className='bg-shadow text-black  dark:bg-gray-950 dark:text-white'>
+              <span>
+                <SiMongoose className='text-text dark:text-textDark h-16 w-20 mt-2 hover:duration-1000 hover:text-M dark:hover:text-M phone:w-9 tablet:w-11' />
+              </span>
+            </Tippy>
+
           </div>
 
           <h1 className='flex dark:text-white text-2xl justify-start mt-5 ml-44 mr-96 border-b border-text dark:border-white phone:ml-9 phone:mt-6 phone:mr-20 phone:text-lg tablet:ml-24'>Data Base</h1>
@@ -84,6 +93,13 @@ function Skills () {
                 <SiMysql className='text-text dark:text-textDark h-16 w-16 hover:duration-1000 hover:text-MY dark:hover:text-MY phone:w-11 tablet:w-11' />
               </span>
             </Tippy>
+
+            <Tippy content='MongoDB' arrow={false} className='bg-shadow text-black  dark:bg-gray-950 dark:text-white'>
+              <span>
+                <SiMongodb className='text-text dark:text-textDark h-14 w-14 hover:duration-1000 hover:text-MG dark:hover:text-MG phone:w-11 tablet:w-11' />
+              </span>
+            </Tippy>
+
           </div>
 
           <h1 className='flex dark:text-white text-2xl justify-end mt-5 ml-96 mr-44 border-b border-text dark:border-white phone:mr-6 phone:ml-20 phone:text-lg tablet:mr-24'>Extras</h1>
@@ -118,6 +134,30 @@ function Skills () {
             </Tippy>
 
           </div>
+
+          <h1 className='flex dark:text-white text-2xl justify-center mt-24 ml-44 mr-44 pb-2 border-b border-text dark:border-white  phone:mr-6 phone:ml-9 phone:p-2 phone:pt-1 tablet:mr-24 phone:text-lg tablet:pt-2'>Tecnologías nuevas que estoy aprendiendo</h1>
+          <div className='flex justify-center ml-44 mr-44 gap-5 py-8 px-5 border-t-8 border-mainLight pb-11 dark:border-mainDark  phone:mr-6 phone:ml-9 phone:p-2 phone:pt-1 tablet:mr-24 tablet:pt-2 '>
+
+            <Tippy content='Typescript' arrow={false} className='bg-shadow text-black  dark:bg-gray-950 dark:text-white'>
+              <span>
+                <SiTypescript className='text-text dark:text-textDark h-12 w-12 hover:duration-1000 hover:text-TS dark:hover:text-TS phone:w-10 tablet:w-12' />
+              </span>
+            </Tippy>
+
+            <Tippy content='React Native' arrow={false} className='bg-shadow text-black  dark:bg-gray-950 dark:text-white'>
+              <span>
+                <TbBrandReactNative className='text-text dark:text-textDark h-12 w-14 hover:duration-1000 hover:text-RN dark:hover:text-RN phone:w-10 tablet:w-12' />
+              </span>
+            </Tippy>
+
+            <Tippy content='Docker' arrow={false} className='bg-shadow text-black  dark:bg-gray-950 dark:text-white'>
+              <span>
+                <FaDocker className='text-text dark:text-textDark h-9 w-14 mt-2 hover:duration-1000 hover:text-D dark:hover:text-D phone:w-8 tablet:w-10' />
+              </span>
+            </Tippy>
+
+          </div>
+
         </div>
       </article>
     </>

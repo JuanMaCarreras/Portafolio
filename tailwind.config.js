@@ -44,7 +44,13 @@ export default {
         G: '#f1502f',
         GH: '#c7d1db', // '#5e5d5d',
         I: '#ba68c8',
-        TRE: '#2979ff'
+        TRE: '#2979ff',
+        M: '#8b0a08',
+        MG: '#2d9315',
+        TS: '#00739f',
+        RN: '#088eff',
+        D: '#2078d8'
+
       },
       keyframes: {
         'fade-in': {
