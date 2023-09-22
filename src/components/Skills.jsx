@@ -135,7 +135,7 @@ function Skills () {
 
           </div>
 
-          <h1 className='flex dark:text-white text-2xl justify-center mt-24 ml-44 mr-44 pb-2 border-b border-text dark:border-white  phone:mr-6 phone:ml-9 phone:p-2 phone:pt-1 tablet:mr-24 phone:text-lg tablet:pt-2'>Tecnologías nuevas que estoy aprendiendo</h1>
+          <h1 className='flex dark:text-white text-2xl justify-center mt-24 ml-44 mr-44 pb-2 border-b border-text dark:border-white  phone:mr-6 phone:ml-9 phone:p-2 phone:pt-1 tablet:mr-24 phone:text-lg tablet:pt-2 phone:text-center phone:whitespace-pre-line phone:break-words'>Tecnologías nuevas que estoy aprendiendo</h1>
           <div className='flex justify-center ml-44 mr-44 gap-5 py-8 px-5 border-t-8 border-mainLight pb-11 dark:border-mainDark  phone:mr-6 phone:ml-9 phone:p-2 phone:pt-1 tablet:mr-24 tablet:pt-2 '>
 
             <Tippy content='Typescript' arrow={false} className='bg-shadow text-black  dark:bg-gray-950 dark:text-white'>
