@@ -1,4 +1,4 @@
-import cvPath from '../assets/Carreras_Manuel_CV.pdf'
+import cvPath from '../assets/Manuel_Carreras.pdf'
 
 function Pdf () {
   return (
