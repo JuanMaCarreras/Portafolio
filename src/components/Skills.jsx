@@ -2,7 +2,7 @@ import { DiHtml5, DiCss3, DiNodejsSmall, DiGit, DiGithubBadge, DiSqllite } from 
 import { SiReact, SiRedux, SiTailwindcss, SiExpress, SiSequelize, SiMysql, SiInsomnia, SiSlack, SiJavascript, SiTypescript } from 'react-icons/si'
 import { BiLogoPostgresql, BiLogoTrello } from 'react-icons/bi'
 import { TbBrandReactNative } from 'react-icons/tb'
-import { FaDocker } from 'react-icons/fa'
+import { FaPython  } from 'react-icons/fa'
 import Tippy from '@tippyjs/react'
 import 'tippy.js/dist/tippy.css'
 
@@ -143,9 +143,9 @@ function Skills () {
               </span>
             </Tippy>
 
-            <Tippy content='Docker' arrow={false} className='bg-shadow text-black  dark:bg-gray-950 dark:text-white'>
+            <Tippy content='Python' arrow={false} className='bg-shadow text-black  dark:bg-gray-950 dark:text-white'>
               <span>
-                <FaDocker className='text-text dark:text-textDark h-9 w-14 mt-2 hover:duration-1000 hover:text-D dark:hover:text-D phone:w-8 tablet:w-10' />
+                <FaPython className='text-text dark:text-textDark h-9 w-14 mt-2 hover:duration-1000 hover:text-D dark:hover:text-D phone:w-8 tablet:w-10' />
               </span>
             </Tippy>
 
