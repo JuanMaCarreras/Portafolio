@@ -1,5 +1,5 @@
-import { DiHtml5, DiCss3, DiNodejsSmall, DiGit, DiGithubBadge } from 'react-icons/di'
-import { SiReact, SiRedux, SiTailwindcss, SiMongodb, SiExpress, SiSequelize, SiMysql, SiInsomnia, SiSlack, SiJavascript, SiMongoose, SiTypescript } from 'react-icons/si'
+import { DiHtml5, DiCss3, DiNodejsSmall, DiGit, DiGithubBadge, DiSqllite } from 'react-icons/di'
+import { SiReact, SiRedux, SiTailwindcss, SiExpress, SiSequelize, SiMysql, SiInsomnia, SiSlack, SiJavascript, SiTypescript } from 'react-icons/si'
 import { BiLogoPostgresql, BiLogoTrello } from 'react-icons/bi'
 import { TbBrandReactNative } from 'react-icons/tb'
 import { FaDocker } from 'react-icons/fa'
@@ -72,12 +72,6 @@ function Skills () {
               </span>
             </Tippy>
 
-            <Tippy content='Mongoose' arrow={false} className='bg-shadow text-black  dark:bg-gray-950 dark:text-white'>
-              <span>
-                <SiMongoose className='text-text dark:text-textDark h-16 w-20 mt-2 hover:duration-1000 hover:text-M dark:hover:text-M phone:w-9 tablet:w-11' />
-              </span>
-            </Tippy>
-
           </div>
 
           <h1 className='flex dark:text-white text-2xl justify-start mt-5 ml-44 mr-96 border-b border-text dark:border-white phone:ml-9 phone:mt-6 phone:mr-20 phone:text-lg tablet:ml-24'>Data Base</h1>
@@ -93,10 +87,9 @@ function Skills () {
                 <SiMysql className='text-text dark:text-textDark h-16 w-16 hover:duration-1000 hover:text-MY dark:hover:text-MY phone:w-11 tablet:w-11' />
               </span>
             </Tippy>
-
-            <Tippy content='MongoDB' arrow={false} className='bg-shadow text-black  dark:bg-gray-950 dark:text-white'>
+            <Tippy content='SQLite' arrow={false} className='bg-shadow text-black  dark:bg-gray-950 dark:text-white'>
               <span>
-                <SiMongodb className='text-text dark:text-textDark h-14 w-14 hover:duration-1000 hover:text-MG dark:hover:text-MG phone:w-11 tablet:w-11' />
+                <DiSqllite className='text-text dark:text-textDark h-16 w-16 hover:duration-1000 hover:text-GH dark:hover:text-white phone:w-11 tablet:w-11' />
               </span>
             </Tippy>
 
