@@ -18,7 +18,7 @@
     "@tippyjs/react": "^4.2.6",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
-    "@vitejs/plugin-react": "^4.7.0",
+    "@vitejs/plugin-react": "^6.0.2",
     "autoprefixer": "^10.4.14",
     "canvas-confetti": "^1.6.0",
     "eslint": "^8.44.0",
@@ -30,7 +30,7 @@
     "standard": "^17.1.0",
     "tailwindcss": "^3.3.3",
     "tailwindcss-animated": "^1.0.1",
-    "vite": "^7.3.2"
+    "vite": "^8.0.16"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
